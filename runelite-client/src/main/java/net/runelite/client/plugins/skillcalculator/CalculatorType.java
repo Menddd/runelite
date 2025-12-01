@@ -51,7 +51,7 @@ enum CalculatorType
 	FARMING(Skill.FARMING, FarmingBonus.values(), FarmingAction.values()),
 	CONSTRUCTION(Skill.CONSTRUCTION, ConstructionBonus.values(), ConstructionAction.values()),
 	HUNTER(Skill.HUNTER, null, HunterAction.values()),
-    SAILING(Skill.SAILING, SailingBonus.values(), SailingAction.values());
+    SAILING(Skill.SAILING, null, SailingAction.values());
 
 	private final Skill skill;
 	@Nullable
