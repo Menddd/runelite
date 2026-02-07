@@ -216,6 +216,7 @@ public class IdleNotifierPlugin extends Plugin
 			case AnimationID.HUMAN_FIRECOOKING:
 			case AnimationID.HUMAN_COOKING:
 			case AnimationID.HUMAN_MAKE_WINE:
+			case AnimationID.HUMAN_CUT_FOOD:
 			/* Crafting(Gem Cutting, Glassblowing, Spinning, Weaving, Battlestaves, Pottery) */
 			case AnimationID.HUMAN_OPALCUTTING:
 			case AnimationID.HUMAN_JADECUTTING:
@@ -389,6 +390,7 @@ public class IdleNotifierPlugin extends Plugin
 			case AnimationID.HUMAN_MACHINERY_ALCHEMY01_ALEMBIC01_INTERACT01:
 			case AnimationID.HUMAN_MACHINERY_ALCHEMY01_AGITATOR01_INTERACT01:
 			case AnimationID.HUMAN_ALCHEMY01_MILL01_INTERACT01:
+			case AnimationID.HUMAN_HERBING_VIAL_RESTART:
 			/* Magic */
 			case AnimationID.HUMAN_CASTCHARGEORB:
 			case AnimationID.DREAM_PLAYER_MAKE_PLANK_SPELL:

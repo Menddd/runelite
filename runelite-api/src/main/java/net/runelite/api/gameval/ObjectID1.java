@@ -71723,6 +71723,7 @@ class ObjectID1
 	 */
 	public static final int TOA_ZEBAK_BUBBLES_BLUE = 58525;
 	public static final int BGSOUND_SAILING_OCEAN_WATER_LOOP_01 = 58526;
+	public static final int CASTLEARROWSLIT_OFFSET = 58527;
 	public static final int BGSOUND_SAILING_COOKING_LOOP_2 = 58528;
 	public static final int BGSOUND_SAILING_NORTHERN_OCEAN_WIND_LOOP = 58529;
 	public static final int BGSOUND_SAILING_CLOCK = 58530;
@@ -73138,6 +73139,11 @@ class ObjectID1
 	public static final int NICKELROCK1_EMPTY = 58924;
 
 	/**
+	 * Cabinet
+	 */
+	public static final int CABINET_OFFSET1 = 58925;
+
+	/**
 	 * Scoreboard
 	 */
 	public static final int SAILING_BT_SCOREBOARD_TEMPOR_TANTRUM = 58926;
@@ -73881,7 +73887,7 @@ class ObjectID1
 	public static final int SAILING_CHARTING_GENERIC_GLIDER_KHARAZI_STRAIT = 59308;
 
 	/**
-	 * Tiny briny shrimp
+	 * &#60;col=ffff00&#62;Tiny briny shrimp&#60;/col&#62;
 	 */
 	public static final int SAILING_CHARTING_GENERIC_SEA_MONKEYS = 59309;
 
@@ -74056,7 +74062,7 @@ class ObjectID1
 	public static final int SAILING_CHARTING_GENERIC_SAND_PIT = 59343;
 
 	/**
-	 * Suspicious eyes
+	 * &#60;col=ffff00&#62;Suspicious eyes&#60;/col&#62;
 	 */
 	public static final int SAILING_CHARTING_GENERIC_CRAB_EYES = 59344;
 
@@ -74151,12 +74157,12 @@ class ObjectID1
 	public static final int SAILING_CHARTING_GENERIC_ATOLL_DICTIONARY = 59362;
 
 	/**
-	 * Lurking Shadow
+	 * &#60;col=ffff00&#62;Lurking Shadow&#60;/col&#62;
 	 */
 	public static final int SAILING_CHARTING_GENERIC_SCARY_SHADOW = 59363;
 
 	/**
-	 * Horde of tiny sea creatures
+	 * &#60;col=ffff00&#62;Horde of tiny sea creatures&#60;/col&#62;
 	 */
 	public static final int SAILING_CHARTING_GENERIC_SEA_SAPPHIRES = 59364;
 
@@ -74598,6 +74604,11 @@ class ObjectID1
 	 * Sails
 	 */
 	public static final int SAILING_BOAT_SAILS_COLOSSAL_REGULAR = 59551;
+
+	/**
+	 * Crevice
+	 */
+	public static final int GRIMSTONE_CAVE_WALL_UPPER_CREVICE = 59552;
 
 	/**
 	 * Sails
@@ -76842,216 +76853,60 @@ class ObjectID1
 	 * Sails
 	 */
 	public static final int SAILING_NPC_BOAT_BASIC_MEDIUM_SAIL = 60244;
-
-	/**
-	 * Basic cargo hold
-	 */
 	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_RAFT = 60245;
 
 	/**
-	 * Basic cargo hold
+	 * Deadman's chest
 	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_RAFT_OPEN = 60246;
-
-	/**
-	 * Oak cargo hold
-	 */
+	public static final int DEADMAN_RARE_CHEST_SPAWN = 60246;
 	public static final int SAILING_BOAT_CARGO_HOLD_OAK_RAFT = 60247;
 
 	/**
-	 * Oak cargo hold
+	 * Deadman's chest
 	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_OAK_RAFT_OPEN = 60248;
-
-	/**
-	 * Teak cargo hold
-	 */
+	public static final int DEADMAN_RARE_CHEST_IDLE = 60248;
 	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_RAFT = 60249;
 
 	/**
-	 * Teak cargo hold
+	 * Deadman's chest
 	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_RAFT_OPEN = 60250;
-
-	/**
-	 * Mahogany cargo hold
-	 */
+	public static final int DEADMAN_RARE_CHEST_OPENED = 60250;
 	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_RAFT = 60251;
-
-	/**
-	 * Mahogany cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_RAFT_OPEN = 60252;
-
-	/**
-	 * Camphor cargo hold
-	 */
+	public static final int DEADMAN_POH_WALL = 60252;
 	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_RAFT = 60253;
-
-	/**
-	 * Camphor cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_RAFT_OPEN = 60254;
-
-	/**
-	 * Ironwood cargo hold
-	 */
+	public static final int DEADMAN_POH_WINDOW = 60254;
 	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_RAFT = 60255;
-
-	/**
-	 * Ironwood cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_RAFT_OPEN = 60256;
-
-	/**
-	 * Rosewood cargo hold
-	 */
+	public static final int DEADMAN_POH_WALL_CRUMBLY01_L = 60256;
 	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_RAFT = 60257;
-
-	/**
-	 * Rosewood cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_RAFT_OPEN = 60258;
-
-	/**
-	 * Basic cargo hold
-	 */
+	public static final int DEADMAN_POH_WALL_CRUMBLY01_R = 60258;
 	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_2X5 = 60259;
-
-	/**
-	 * Basic cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_2X5_OPEN = 60260;
-
-	/**
-	 * Oak cargo hold
-	 */
+	public static final int DEADMAN_POH_WALL_CRUMBLY02_L = 60260;
 	public static final int SAILING_BOAT_CARGO_HOLD_OAK_2X5 = 60261;
-
-	/**
-	 * Oak cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_OAK_2X5_OPEN = 60262;
-
-	/**
-	 * Teak cargo hold
-	 */
+	public static final int DEADMAN_POH_WALL_CRUMBLY02_R = 60262;
 	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_2X5 = 60263;
-
-	/**
-	 * Teak cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_2X5_OPEN = 60264;
-
-	/**
-	 * Mahogany cargo hold
-	 */
+	public static final int DEADMAN_POH_WALL_CRUMBLY03_L = 60264;
 	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_2X5 = 60265;
-
-	/**
-	 * Mahogany cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_2X5_OPEN = 60266;
-
-	/**
-	 * Camphor cargo hold
-	 */
+	public static final int DEADMAN_POH_WALL_CRUMBLY03_R = 60266;
 	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_2X5 = 60267;
-
-	/**
-	 * Camphor cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_2X5_OPEN = 60268;
-
-	/**
-	 * Ironwood cargo hold
-	 */
+	public static final int DEADMAN_RUBBLE01 = 60268;
 	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_2X5 = 60269;
-
-	/**
-	 * Ironwood cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_2X5_OPEN = 60270;
-
-	/**
-	 * Rosewood cargo hold
-	 */
+	public static final int DEADMAN_RUBBLE02 = 60270;
 	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_2X5 = 60271;
-
-	/**
-	 * Rosewood cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_2X5_OPEN = 60272;
-
-	/**
-	 * Basic cargo hold
-	 */
+	public static final int POH_FLOORDECOR_DEADMAN = 60272;
 	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_LARGE = 60273;
-
-	/**
-	 * Basic cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_LARGE_OPEN = 60274;
-
-	/**
-	 * Oak cargo hold
-	 */
+	public static final int DEADMAN_DUNGEON_INSIDEWALL_CORNER = 60274;
 	public static final int SAILING_BOAT_CARGO_HOLD_OAK_LARGE = 60275;
-
-	/**
-	 * Oak cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_OAK_LARGE_OPEN = 60276;
-
-	/**
-	 * Teak cargo hold
-	 */
+	public static final int DEADMAN_DUNGEON_OUTSIDEWALL_CORNER = 60276;
 	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_LARGE = 60277;
-
-	/**
-	 * Teak cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_LARGE_OPEN = 60278;
-
-	/**
-	 * Mahogany cargo hold
-	 */
+	public static final int DEADMAN_DUNGEON_OUTSIDEWALL_LCORNER = 60278;
 	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_LARGE = 60279;
-
-	/**
-	 * Mahogany cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_LARGE_OPEN = 60280;
-
-	/**
-	 * Camphor cargo hold
-	 */
+	public static final int DEADMAN_DUNGEON_OUTSIDEWALL_RCORNER = 60280;
 	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_LARGE = 60281;
-
-	/**
-	 * Camphor cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_LARGE_OPEN = 60282;
-
-	/**
-	 * Ironwood cargo hold
-	 */
+	public static final int DEADMAN_DUNGEON_WALLTOP = 60282;
 	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_LARGE = 60283;
-
-	/**
-	 * Ironwood cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_LARGE_OPEN = 60284;
-
-	/**
-	 * Rosewood cargo hold
-	 */
+	public static final int DEADMAN_DUNGEON_OUTSIDEWALL = 60284;
 	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_LARGE = 60285;
-
-	/**
-	 * Rosewood cargo hold
-	 */
-	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_LARGE_OPEN = 60286;
+	public static final int DEADMAN_DUNGEON_INSIDEWALL = 60286;
 
 	/**
 	 * Notice board
@@ -77877,5 +77732,402 @@ class ObjectID1
 	 * Tentacle
 	 */
 	public static final int HAZARDOUS_WATER_PROFANE_GHOST = 60575;
+
+	/**
+	 * Table
+	 */
+	public static final int XMAS25_TABLE01_EMPTY01 = 60576;
+
+	/**
+	 * Basic cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_RAFT_NO_CARGO = 60577;
+
+	/**
+	 * Table
+	 */
+	public static final int XMAS25_TABLE01_DRINK01 = 60578;
+
+	/**
+	 * Table
+	 */
+	public static final int XMAS25_TABLE01_FOOD01 = 60579;
+
+	/**
+	 * Table
+	 */
+	public static final int XMAS25_TABLE01_VEGETABLE01 = 60580;
+
+	/**
+	 * Basic cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_RAFT_CARGO = 60581;
+
+	/**
+	 * Oak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_OAK_RAFT_NO_CARGO = 60582;
+
+	/**
+	 * Oak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_OAK_RAFT_CARGO = 60583;
+
+	/**
+	 * Teak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_RAFT_NO_CARGO = 60584;
+
+	/**
+	 * Bar
+	 */
+	public static final int XMAS25_BLUE_INN_DRINKS_BAR_MIDDLE = 60585;
+
+	/**
+	 * Teak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_RAFT_CARGO = 60586;
+
+	/**
+	 * Bar
+	 */
+	public static final int XMAS25_BLUE_INN_DRINKS_BAR_MIDDLE2 = 60587;
+
+	/**
+	 * Mahogany cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_RAFT_NO_CARGO = 60588;
+
+	/**
+	 * Bar
+	 */
+	public static final int XMAS25_BLUE_INN_DRINKS_BAR_LEFT = 60589;
+
+	/**
+	 * Mahogany cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_RAFT_CARGO = 60590;
+
+	/**
+	 * Bar
+	 */
+	public static final int XMAS25_BLUE_INN_DRINKS_BAR_RIGHT = 60591;
+
+	/**
+	 * Camphor cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_RAFT_NO_CARGO = 60592;
+
+	/**
+	 * Bar
+	 */
+	public static final int XMAS25_BLUE_INN_BAR_MIDDLE = 60593;
+
+	/**
+	 * Camphor cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_RAFT_CARGO = 60594;
+
+	/**
+	 * Bar
+	 */
+	public static final int XMAS25_BLUE_INN_BAR_MIDDLE2 = 60595;
+
+	/**
+	 * Ironwood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_RAFT_NO_CARGO = 60596;
+
+	/**
+	 * Bar
+	 */
+	public static final int XMAS25_BLUE_INN_BAR_MIDDLE3 = 60597;
+
+	/**
+	 * Ironwood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_RAFT_CARGO = 60598;
+
+	/**
+	 * Bar
+	 */
+	public static final int XMAS25_BLUE_INN_BAR_LEFT = 60599;
+
+	/**
+	 * Bar
+	 */
+	public static final int XMAS25_BLUE_INN_BAR_RIGHT = 60600;
+
+	/**
+	 * Rosewood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_RAFT_NO_CARGO = 60601;
+
+	/**
+	 * Rosewood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_RAFT_CARGO = 60602;
+
+	/**
+	 * Basic cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_2X5_NO_CARGO = 60603;
+
+	/**
+	 * Basic cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_2X5_CARGO = 60604;
+
+	/**
+	 * Oak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_OAK_2X5_NO_CARGO = 60605;
+
+	/**
+	 * Oak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_OAK_2X5_CARGO = 60606;
+
+	/**
+	 * Teak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_2X5_NO_CARGO = 60607;
+
+	/**
+	 * Crate
+	 */
+	public static final int XMAS25_CRATE01_CARROT01 = 60608;
+
+	/**
+	 * Crate
+	 */
+	public static final int XMAS25_CRATE01_TOMATO01 = 60609;
+
+	/**
+	 * Crate
+	 */
+	public static final int XMAS25_CRATE01_VEGETABLE01 = 60610;
+
+	/**
+	 * Crate
+	 */
+	public static final int XMAS25_CRATE01_BROCCOLI01 = 60611;
+
+	/**
+	 * Crate
+	 */
+	public static final int XMAS25_CRATE01_FRUIT01 = 60612;
+
+	/**
+	 * Crate
+	 */
+	public static final int XMAS25_CRATE01_FISH01 = 60613;
+
+	/**
+	 * Crate
+	 */
+	public static final int XMAS25_CRATE01_MEAT01 = 60614;
+	public static final int XMAS22_DECORATION_HOLLYWREATH01_WALL01 = 60615;
+
+	/**
+	 * Snowball pile
+	 */
+	public static final int XMAS25_SNOWBALL_PILE = 60616;
+	public static final int AGILITY_ONEWAY_RIGHT_ICON = 60617;
+	public static final int AGILITY_ONEWAY_LEFT_ICON = 60618;
+
+	/**
+	 * Shellbane Gryphon display
+	 */
+	public static final int POH_DISPLAY_GRYPHON = 60619;
+
+	/**
+	 * Teak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_2X5_CARGO = 60620;
+
+	/**
+	 * Mahogany cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_2X5_NO_CARGO = 60621;
+
+	/**
+	 * Mahogany cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_2X5_CARGO = 60622;
+
+	/**
+	 * Camphor cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_2X5_NO_CARGO = 60623;
+
+	/**
+	 * Camphor cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_2X5_CARGO = 60624;
+
+	/**
+	 * Ironwood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_2X5_NO_CARGO = 60625;
+
+	/**
+	 * Ironwood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_2X5_CARGO = 60626;
+
+	/**
+	 * Rosewood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_2X5_NO_CARGO = 60627;
+
+	/**
+	 * Rosewood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_2X5_CARGO = 60628;
+
+	/**
+	 * Basic cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_LARGE_NO_CARGO = 60629;
+
+	/**
+	 * Basic cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_REGULAR_LARGE_CARGO = 60630;
+
+	/**
+	 * Oak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_OAK_LARGE_NO_CARGO = 60631;
+
+	/**
+	 * Oak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_OAK_LARGE_CARGO = 60632;
+
+	/**
+	 * Teak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_LARGE_NO_CARGO = 60633;
+
+	/**
+	 * Teak cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_TEAK_LARGE_CARGO = 60634;
+
+	/**
+	 * Mahogany cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_LARGE_NO_CARGO = 60635;
+
+	/**
+	 * Mahogany cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_MAHOGANY_LARGE_CARGO = 60636;
+
+	/**
+	 * Camphor cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_LARGE_NO_CARGO = 60637;
+
+	/**
+	 * Camphor cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_CAMPHOR_LARGE_CARGO = 60638;
+
+	/**
+	 * Ironwood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_LARGE_NO_CARGO = 60639;
+
+	/**
+	 * Ironwood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_IRONWOOD_LARGE_CARGO = 60640;
+
+	/**
+	 * Rosewood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_LARGE_NO_CARGO = 60641;
+
+	/**
+	 * Rosewood cargo hold
+	 */
+	public static final int SAILING_BOAT_CARGO_HOLD_ROSEWOOD_LARGE_CARGO = 60642;
+	public static final int DEADMAN_DUNGEON_CORRIDORFILLER = 60643;
+	public static final int BLACK_WALL02 = 60646;
+
+	/**
+	 * Stained-glass window
+	 */
+	public static final int POH_DEADMAN_WINDOW_BINGO_01 = 60647;
+
+	/**
+	 * Stained-glass window
+	 */
+	public static final int POH_DEADMAN_WINDOW_BINGO_02 = 60648;
+
+	/**
+	 * Shuttered window
+	 */
+	public static final int POH_DEADMAN_WINDOW_SHUTTERS = 60649;
+
+	/**
+	 * Decorative window
+	 */
+	public static final int POH_DEADMAN_WINDOW_BOB = 60650;
+
+	/**
+	 * Stained-glass window
+	 */
+	public static final int POH_DEADMAN_WINDOW_BOB2 = 60651;
+
+	/**
+	 * Decorative window
+	 */
+	public static final int POH_DEADMAN_WINDOW_GUTHIX = 60652;
+
+	/**
+	 * Stained-glass window
+	 */
+	public static final int POH_DEADMAN_WINDOW_GUTHIX2 = 60653;
+
+	/**
+	 * Decorative window
+	 */
+	public static final int POH_DEADMAN_WINDOW_SARADOMIN = 60654;
+
+	/**
+	 * Stained-glass window
+	 */
+	public static final int POH_DEADMAN_WINDOW_SARADOMIN2 = 60655;
+
+	/**
+	 * Decorative window
+	 */
+	public static final int POH_DEADMAN_WINDOW_ZAMORAK = 60656;
+
+	/**
+	 * Stained-glass window
+	 */
+	public static final int POH_DEADMAN_WINDOW_ZAMORAK2 = 60657;
+
+	/**
+	 * Decorative window
+	 */
+	public static final int POH_DEADMAN_WINDOW_GNOMECHILD = 60658;
+
+	/**
+	 * Stained-glass window
+	 */
+	public static final int POH_DEADMAN_WINDOW_GNOMECHILD2 = 60659;
+
+	/**
+	 * Window space
+	 */
+	public static final int POH_CHAPELWINDOW_HOTSPOT_DEADMAN = 60660;
+	public static final int DEADMAN_DUNGEON_INSIDEWALL_SIDER = 60661;
+	public static final int DEADMAN_DUNGEON_INSIDEWALL_SIDEL = 60662;
 /* This file is automatically generated. Do not edit. */
 }

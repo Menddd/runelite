@@ -1206,7 +1206,7 @@ public class CrypticClue extends ClueScroll implements NpcClueScroll, ObjectClue
 			.text("Robin wishes to see your finest ranged equipment.")
 			.location(new WorldPoint(3673, 3492, 0))
 			.npc("Robin")
-			.solution("Robin at the inn in Port Phasmatys. Speak to him with +181 in ranged attack bonus. Bonus granted by the toxic blowpipe is ignored.")
+			.solution("Robin at the inn in Port Phasmatys. Speak to him with +180 in ranged attack bonus. Bonus granted by the toxic blowpipe is ignored.")
 			.build(),
 		CrypticClue.builder()
 			.itemId(ItemID.TRAIL_CLUE_HARD_RIDDLE001)
@@ -2030,7 +2030,7 @@ public class CrypticClue extends ClueScroll implements NpcClueScroll, ObjectClue
 		CrypticClue.builder()
 			.itemId(ItemID.TRAIL_ELITE_RIDDLE_SAIL)
 			.text("Their bane awaits, but don't be going in there without permission.")
-			.location(new WorldPoint(3120, 2424, 0))
+			.location(new WorldPoint(3176, 2478, 0))
 			.npc("Shellbane gryphon")
 			.solution("Kill the shellbane gryphon.")
 			.build(),
